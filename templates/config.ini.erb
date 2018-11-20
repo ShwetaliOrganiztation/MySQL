@@ -1,0 +1,14 @@
+[ndb_mgmd default]
+# Directory for MGM node log files
+DataDir=<%= @mgm_datadir %>
+ 
+[ndb_mgmd]
+#Management Node db1
+HostName=<%= @mgm_node_ip %>
+ 
+[ndbd default]
+NoOfReplicas=<%= @no_of_replicas %>    # Number of replicas
+DataMemory=<%= @data_storage %>     # Memory allocate for data storage
+IndexMemory=<%= @index_storage %>    # Memory allocate for index storage
+#Directory for Data Node
+DataDir=<%= @data_datadir %>

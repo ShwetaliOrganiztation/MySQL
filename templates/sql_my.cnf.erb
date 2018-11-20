@@ -1,0 +1,7 @@
+[mysqld]
+ndbcluster
+ndb-connectstring=<%= @mgm_node_ip %>       # IP address for server management node
+default_storage_engine=<%= @storage_engine %>     # Define default Storage Engine used by MySQL
+ 
+[mysql_cluster]
+ndb-connectstring=<%= @mgm_node_ip %>       # IP address for server management node

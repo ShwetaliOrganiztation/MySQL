@@ -5,3 +5,6 @@ metadata
 group :delivery do
   cookbook 'test', path: './test/fixtures/cookbooks/test'
 end
+
+cookbook 'delivery-truck', github: 'chef-cookbooks/delivery-truck'
+cookbook 'delivery-sugar', github: 'chef-cookbooks/delivery-sugar'
