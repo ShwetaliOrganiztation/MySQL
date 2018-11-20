@@ -1,0 +1,7 @@
+server = "chefAutomate.idmlab.com"
+api_protocol = "https"
+user = "delivery"
+enterprise = "GSLab"
+organization = "shwetali_org"
+git_port = "8989"
+pipeline = "master"
