@@ -13,5 +13,5 @@
   "job_dispatch": {
     "version": "v2"
   },
-  "dependencies": []
+  "dependencies": ["delivery-truck"]
 }
